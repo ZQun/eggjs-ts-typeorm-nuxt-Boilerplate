@@ -1,0 +1,44 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "lib": [
+      "dom",
+      "es2015"
+    ],
+    "strict": true,
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "charset": "utf8",
+    "allowJs": false,
+    "pretty": true,
+    "noEmitOnError": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "strictPropertyInitialization": false,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "inlineSourceMap": true,
+    "importHelpers": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/": ["app/nuxt/"],
+      "~/assets/*": ["app/nuxt/assets/*"],
+      "~/components/*": ["app/nuxt/components/*"],
+      "~/middleware/*": ["app/nuxt/middleware/*"],
+      "~/pages/*": ["app/nuxt/pages/*"],
+      "~/plugins/*": ["app/nuxt/plugins/*"],
+      "~/static/*": ["app/nuxt/static/*"],
+      "~/store/*": ["app/nuxt/store/*"]
+    }
+  },
+  "exclude": [
+    "app/public",
+    "app/views"
+  ]
+}
