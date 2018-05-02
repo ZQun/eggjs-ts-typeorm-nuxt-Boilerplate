@@ -1,0 +1,14 @@
+{
+  "type": "mysql",
+  "synchronize": true,
+  "logging": true,
+  "logger": "file",
+  "entities": ["app/entity/*.ts"],
+  "subscribers": ["app/subscriber/*.ts"],
+  "migrations": ["app/migration/*.ts"],
+  "cli": {
+    "entitiesDir": "app/entity",
+    "migrationsDir": "app/migration",
+    "subscribersDir": "app/subscriber"
+  }
+}
